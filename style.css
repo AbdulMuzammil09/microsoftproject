@@ -1,0 +1,394 @@
+body{
+ overflow-x: hidden;
+ font-family: 'roboto';
+}
+
+*{
+ margin: 0px;
+ padding: 0px;
+ box-sizing: border-box;
+ /* overflow-x: hidden; */
+}
+
+.container{
+ width: 100vw;
+ /* height: 30000px; */
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ position: relative;
+}
+
+.header{
+ width: 100vw;
+ height: 55px;
+ background-color: white;
+ box-shadow: 0 0 10px white;
+ border: transparent; 
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+}
+.headleft{
+ width: 50%;
+ display: flex;
+ justify-content: space-evenly;
+ font-size: 15px;
+ font-family: 'Roboto Condensed';
+}
+.microsoftimg img{
+ width: 150px;
+}
+.headcontent1{
+ display: flex;
+ gap: 20px;
+ align-items: center;
+}
+.headcontent1 p:hover{
+ border-bottom: 2px solid black;
+}
+
+.headright{
+ width: 28%;
+ display: flex;
+ flex-direction: row;
+ align-items: center; 
+ justify-content: space-evenly;
+ font-size: 15px;
+ font-family: 'Roboto Condensed';
+}
+.allmicrosoft{
+ display: flex; 
+ 
+}
+.allmicrosoft p:hover{
+ border-bottom: 2px solid black;
+}
+.headright select{
+ background-color: white;
+ border: none;
+ width: 17px; 
+ margin-left: 7px;
+}
+.headright button{
+ background-color: white;
+ border: none;
+}
+.container1{
+ width: 100vw;
+ height: 520px;
+ background-color: rgba(128, 128, 128, 0.097);
+ display: flex;
+ justify-content: space-evenly;
+ align-items: center;
+}
+.c1leftcontent{
+ width: 30%;
+ display: flex;
+ flex-direction: column;
+ font-size: 20px;
+ font-family: 'Roboto Condensed';
+}
+.c1leftcontent button{
+ width: 150px;
+ height: 40px;
+ border:transparent;
+ background-color: rgba(42, 42, 207, 0.745);
+}
+
+.c1rightcontent img{
+ width: 600px;
+ height: 300px;
+}
+
+/* container2 */
+
+.container2{
+ width: 80vw;
+ height: 300px;
+ background-color: white;
+ border: transparent;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.icons{
+ width: 100%;
+ display: flex;
+ justify-content: space-around;
+}
+.icons img{
+ width: 50px;
+ height: 50px;
+}
+.icons a{
+ color: blue;
+}
+.icon1{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+.icon2{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+.icon3{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+.icon4{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+/* container3 */
+.container3{
+ width: 100vw;
+ display: flex;
+ align-items: center;
+ background-color: white;
+}
+.c3boxes{
+ width: 100vw;
+ margin: 30px; 
+ display: flex; 
+ justify-content: space-around;
+ font-family: 'Roboto';
+ font-weight: 200;
+}
+.c3box1{
+ width: 250px;
+ display: flex;
+ flex-direction: column;
+ border: transparent;  
+}
+.anchor {
+ display: flex;
+ flex-direction: row;
+ gap: 10px;
+ transition: all 0.2s ease;
+ align-items: center;
+}
+.anchor:hover{
+ gap: 15px;
+}
+.anchor a{
+ text-decoration: none;
+ color: blue;
+}
+.anchor h2{
+ color: blue;
+ font-weight: 300;
+}
+.anchor a:hover{
+ border-bottom: 1px solid blue;
+}
+
+.c3box2{
+ width: 250px;
+ display: flex;
+ flex-direction: column;
+ border: transparent; 
+}
+
+.c3box3{
+ width: 250px;
+ display: flex;
+ flex-direction: column;
+ border: transparent; 
+}
+
+.c3box4{
+ width: 250px;
+ display: flex;
+ flex-direction: column;
+ border: transparent; 
+}
+
+
+/* container4 */
+
+.container4{
+ width: 90%;
+ height: 550px;
+ margin-top: 90px;
+ background-image: url(./c4\ bg\ img.avif);
+ background-position: cover;
+ color: aliceblue;
+ font-family: 'Kanit';
+}
+.container4 button{
+ background-color: rgb(247, 169, 26);
+ width: 60px;
+ height: 30px;
+ border: transparent;
+}
+.container4 input{
+ width: 150px;
+ height: 35px;
+ color: aliceblue;
+ background-color: rgb(65, 65, 235);
+ border: transparent;
+}
+.c4content{
+ display: flex;
+ flex-direction: column;
+ width: 30%;
+ margin-left:680px ;
+ margin-top: 100px;
+}
+.c4content h3{
+ width: 50%;
+ font-size: 25px;
+}
+.c4content p{
+ font-size: 18px;
+ font-weight: 200;
+}
+
+
+/* container5 */
+
+.container5{
+ display: flex;
+ flex-direction: column;
+ width: 100vw;
+ height: 550px;
+}
+.container5 h1{
+ margin-left: 70px;
+ margin-top: 30px;
+}
+.c5boxes{
+ width: 95%;
+ display: flex;
+ margin: 30px; 
+ display: flex; 
+ justify-content: space-evenly;
+}
+.c5box1{
+ width: 250px;
+ display: flex;
+ flex-direction: column;
+}
+.c5box2{
+ width: 250px;
+ display: flex;
+ flex-direction: column;
+}
+.c5box3{
+ width: 250px;
+ display: flex;
+ flex-direction: column;
+}
+.c5box4{
+ width: 250px;
+ display: flex;
+ flex-direction: column;
+}
+
+.followcontainer{
+ width: 100vw;
+ height: 70px; 
+ display: flex;
+ gap: 20px;
+}
+.followcontainer p{
+ font-size: 20px;
+ margin-left: 50px; 
+}
+
+.backbutton{
+ margin-left: 1000px;
+ /* margin-top: 100px;  */
+ /* position: fixed;  */
+}
+.backbutton a{
+ text-decoration: none;
+ color:black;
+ font-size: 20px;
+ font-family: 'kanit' !important;
+}
+.backbutton button{
+ width: 140px;
+ height: 40px;
+ border: transparent;
+ box-shadow: 0 0 1px gray;
+}
+.backbutton button:hover{
+ background-color: rgba(0, 0, 0, 0.515);
+}
+
+
+/* container6 */
+
+.container6{
+ width: 100vw;
+ height: 450px;
+ margin-top: 30px;
+ background-color: rgba(128, 128, 128, 0.154);
+ display: flex;
+ flex-direction: column;
+}
+.footer{
+ display: flex;
+ justify-content: space-evenly;
+ line-height: 35px;
+ margin-top: 20px;
+ 
+}
+#heading1{
+ font-size: 20px;
+ font-weight: 550;
+ font-family: 'kanit' !important;
+}
+#c6content{
+ font-size: 12px;
+ font-weight: 400;
+}
+#c6content:hover{
+ border-bottom: 1px solid black;
+ width: fit-content;
+ margin-top: 0px;
+}
+.whatsnew{
+ display: flex;
+ flex-direction: column; 
+}
+
+.subfooter{
+ display: flex;
+ justify-content: space-between;
+ align-items: flex-end;
+ width: 100vw;
+ height: 80px;
+}
+.subfooterleft{
+ width: 25%;
+ margin-left: 40px;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ font-weight: 300;
+ font-size: 13px;
+}
+.subfooterleft p{
+ display: flex;
+ align-items: center;
+}
+
+.subfooterright{
+ width: 50%;
+ margin-right: 30px;
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+ font-size: 13px;
+}
+.subfooterright p:hover{
+ border-bottom:1px solid black ;
+}
